@@ -1,5 +1,6 @@
-Si edad >=18
-mostrar "Maria"
-SiNo
-Mostrar "nombre para conducir"
-FinSi
+Main
+int edad 18
+string Maria 
+boom tieneLicencia
+
+FinMain
