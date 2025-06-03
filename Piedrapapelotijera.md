@@ -1,22 +1,18 @@
 Main
-string =respuesta jugador
-bool = FALSE
-int rondas = 3
-int marcadorcompu =
-int marcadorJugador =
-string computadora resultado
+int rondas 
+string[] = piedra , papel, tijera
+string jugada , jugadapc
+bool gano 
 
-for ( A; B; C)
-{ 
-  // codigo a ejecutar 
-}
-A: ronda 1
-B: Ronda 2 
-C : Ronda 3 Fin 
+for(rondas=0, rondas==2,++rondas)
+mostrar "Elige piedra ,papel o tijera"
+leer jugada 
+jugadaPC = Random(0,2) > string[]
 
-"ingresa tu respuesta "
-int respuesta de jugador
-
-random
-
-
+if (jugada == jugadaPC)
+mostrar "empate"
+else
+       if(jugada == string[0])// piedra 
+       
+       finIf
+      finIf     
