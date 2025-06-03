@@ -1,11 +1,28 @@
 Main 
-int azar 
-while (intentos > 0 && !adivinado)
-{
-    //aqui va el juego
-}
-spring numero 
-int intentos = 7;
-bool advina = false ;
-random (1 <= 100) = new 
+   int numJugador
+   int intentos = 7
+   bool advinado = FALSO
+   int numeroSecreto = random(0,101)
+
+   while (intentos > 0 && !adivinado)
+   numeroSecreto 
+   lee numJugador 
+   if(numJugador = númeroSecreto)
+   adivinado = VERDADERO 
+      mostrar "HAS ADIVINADO"
+      --intentos
+      
+   SiNo 
+   if(númeroJugador > numeroSecreto)
+     mostrar "Demasiado alto" 
+   SiNo 
+   if(númeroJugador > mumeroSecreto)
+      mostrar "demasiado bajo"
+      --intentos
+      
+    FinIf
+    
+    FinWhile
+
+    FinMain
 
