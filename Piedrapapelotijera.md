@@ -12,7 +12,10 @@ jugadaPC = Random(0,2) > string[]
 if (jugada == jugadaPC)
 mostrar "empate"
 else
-       if(jugada == string[0])// piedra 
+       if(jugada == "papel" string[0])// piedra 
+       //gana papel 
+       Mostrar "Ganaste"
+       ganaHum++
        
        finIf
       finIf     
